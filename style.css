@@ -1,9 +1,25 @@
-h1 {
+h1,
+p {
   color: brown;
+  text-align: center;
 }
-a {
-  color: blue;
-}
+
 body {
-  background-color: pink;
+  background: #f8e8a6;
+}
+
+.croissant-photo {
+  max-width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: 30px auto;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: blue;
 }
